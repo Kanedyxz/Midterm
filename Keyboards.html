@@ -1,0 +1,120 @@
+<html>
+<head>
+<style>
+body {
+	 background-image: url("background1b.jpg");
+}
+.btn{
+	
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.btn li{
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px;
+	
+}
+a:hover {
+  background-color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: blue;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+  
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+   
+}
+th,td {
+  border: 1px solid white;
+  color: white;
+  padding: 20px;
+ 
+}
+
+table.a {
+  table-layout: auto;
+  width: 50%;  
+}
+th{
+	height: 100px;
+}
+img{
+	width:300px;
+	height: 300px;
+}
+button{
+	margin-top: 20px;
+}
+
+</style>
+<body>
+
+<ul class="btn">
+	<li><a href="main.html">Home</a></li>
+	<li><a href="About Us.html">About Us</a></li>
+	<div class="dropdown">
+	<li><a href="Keyboards.html">More</a></li>
+	<div class="dropdown-content">
+		<a href="Keyboards.html">Keyboard</a>
+    		<a href="Mouse.html">Mouse</a>
+    		<a href="Monitors.html">Monitor</a>
+	</div>
+	</div>
+</ul>
+
+<table class="a">
+  <tr>
+    <th><img src="Keyboard1.jpg" alt="Keyboard"<br><br><button type="button" onclick="alert('Thankyou For Supporting our Company')">Buy</button></th>
+    <th><img src="Keyboard2.jpg" alt="Keyboard"<br><br><button type="button" onclick="alert('Thankyou For Supporting our Company')">Buy</button></th>
+    <th><img src="Keyboard3.jpg" alt="Keyboard"<br><br><button type="button" onclick="alert('Thankyou For Supporting our Company')">Buy</button></th>
+  </tr>
+  <tr>
+    <td><img src="Keyboard4.jpg" alt="Keyboard"<br><br><button type="button" onclick="alert('Thankyou For Supporting our Company')">Buy</button></td>
+    <td><img src="Keyboard5.jpg" alt="Keyboard"<br><br><button type="button" onclick="alert('Thankyou For Supporting our Company')">Buy</button></td>
+    <td><img src="Keyboard6.jpg" alt="Keyboard"<br><br><button type="button" onclick="alert('Thankyou For Supporting our Company')">Buy</button></td>
+  </tr>
+  <tr>
+    <td><img src="Keyboard7.jpg" alt="Keyboard"<br><br><button type="button" onclick="alert('Thankyou For Supporting our Company')">Buy</button></td>
+    <td><img src="Keyboard8.jpg" alt="Keyboard"<br><br><button type="button" onclick="alert('Thankyou For Supporting our Company')">Buy</button></td>
+    <td><img src="Keyboard9.jpg" alt="Keyboard"<br><br><button type="button" onclick="alert('Thankyou For Supporting our Company')">Buy</button></td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
